@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def status():
-    return {'servico': 'OpsTrackAPI', 'status': 'online'}
+    return {'servico': 'OpsTrackAPI', 'status': 'active'}
 
 if __name__ == '__main__':
     app.run(debug=True)
